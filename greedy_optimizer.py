@@ -50,6 +50,7 @@ def optimize_truck_load(packages, weight_limit):
    total_priority = 0
    selected_packages = []
 
+
    for package, ratio in sorted_packages_decending:
        if total_weight + package['weight'] <= weight_limit:
            selected_packages.append({'package_id': package['package_id'], 'fraction': 1.0})
