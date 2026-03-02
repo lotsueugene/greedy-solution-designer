@@ -281,14 +281,7 @@ def benchmark_scenarios():
 
 
 if __name__ == "__main__":
-    print("GREEDY ALGORITHMS ASSIGNMENT - STARTER CODE")
-    print("Implement the greedy functions above, then run tests.\n")
-    
-    # Uncomment these as you complete each part:
-    
     test_package_prioritization()
     test_truck_loading()
     test_driver_assignment()
     benchmark_scenarios()
-    
-    print("\n⚠ Uncomment the test functions in the main block to run tests!")
